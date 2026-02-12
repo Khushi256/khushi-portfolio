@@ -8,9 +8,9 @@ function About() {
 
                 <div className="lg:col-span-8">
                     <p className="text-lg md:text-xl font-display font-medium leading-relaxed text-zinc-900 dark:text-zinc-100">
-                        Hi, I'm Khushi - a <span className="text-yellow-500 font-script" style={{ fontFamily: '"Courgette", cursive' }}>Frontend Developer</span> who crafts responsive web applications with exceptional <span className="text-yellow-500 font-script" style={{ fontFamily: '"Courgette", cursive' }}>UI/UX</span> using <span className="text-yellow-500 font-script" style={{ fontFamily: '"Courgette", cursive' }}>React</span>, TypeScript, and Tailwind CSS. I focus on building intuitive interfaces with clean, efficient code that prioritizes seamless user experiences.
+                        Hi, I'm Khushi - a <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>Frontend Developer</span> who crafts responsive web applications with exceptional <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>UI/UX</span> using <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>React</span>, TypeScript, and Tailwind CSS. I focus on building intuitive interfaces with clean, efficient code that prioritizes seamless user experiences.
                         <br /><br />
-                        As an <span className="text-yellow-500 font-script" style={{ fontFamily: '"Courgette", cursive' }}>ADK-TS Hackathon Winner</span> for multi-agent collaboration, I bring strong problem-solving abilities and a keen eye for design to create solutions that balance aesthetics with functionality and deliver measurable impact.
+                        As an <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>ADK-TS Hackathon Winner</span> for multi-agent collaboration, I bring strong problem-solving abilities and a keen eye for design to create solutions that balance aesthetics with functionality and deliver measurable impact.
                         <br /><br />
                         I'm open to frontend opportunities where I can contribute to meaningful projects and drive results.
                     </p>
