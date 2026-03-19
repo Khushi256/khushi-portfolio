@@ -38,8 +38,8 @@ src/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd portfolio
+    git clone https://github.com/Khushi256/khushi-portfolio.git
+    cd khushi-portfolio
     ```
 
 2.  **Install dependencies:**
