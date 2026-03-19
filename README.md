@@ -2,7 +2,11 @@
 
 A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. This project showcases my skills, projects, and provides a way to contact me.
 
-## 🚀 Features
+## Demo
+<img width="2820" height="1439" alt="Khushi _ UI_UX Designer   Frontend Developer - Comet 19-03-2026 09_21_55" src="https://github.com/user-attachments/assets/b5cbd40f-8d06-4085-93ad-11bf9b6e09db" />
+
+
+## Features
 
 - **Modern UI/UX**: Clean and elegant design with a focus on user experience.
 - **Responsive Design**: Fully responsive layout that looks great on all devices (Mobile, Tablet, Desktop).
@@ -10,7 +14,7 @@ A modern, responsive personal portfolio website built with React, Vite, and Tail
 - **Smooth Animations**: Integrated with Framer Motion for engaging transitions and scroll effects.
 - **Interactive Elements**: Dynamic components like a custom cursor and interactive project cards.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Framework**: [React](https://react.dev/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
@@ -19,7 +23,7 @@ A modern, responsive personal portfolio website built with React, Vite, and Tail
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Utils**: `clsx`, `tailwind-merge` for efficient class handling.
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -30,7 +34,7 @@ src/
 └── index.css       # Global styles and Tailwind directives
 ```
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -59,7 +63,7 @@ src/
     yarn build
     ```
 
-## 🎨 Sections
+## Sections
 
 - **Hero**: Introduction and welcome message.
 - **About**: Brief personal background and summary.
@@ -67,6 +71,6 @@ src/
 - **Projects**: Showcase of featured work and case studies.
 - **Contact**: Form and social links for getting in touch.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
