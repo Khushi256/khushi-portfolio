@@ -23,12 +23,12 @@ function Contact() {
     }
 
     return (
-        <section className="min-h-screen flex items-center py-10 px-6 border-t border-zinc-100 dark:border-zinc-900" id="contact">
-            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+        <section className="py-16 md:py-24 px-6 border-t border-zinc-100 dark:border-zinc-900" id="contact">
+            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start lg:items-center">
                 {/* Left Column */}
                 <div className="flex flex-col justify-center h-full">
                     <div className="mb-8">
-                        <h2 className="font-display text-5xl md:text-7xl font-extrabold tracking-tighter mb-4 leading-none">
+                        <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter mb-4 leading-none">
                             Let's <br />Connect<span className="text-yellow-500">.</span>
                         </h2>
                         <p className="text-zinc-500 dark:text-zinc-400 text-lg max-w-md leading-relaxed mb-8">

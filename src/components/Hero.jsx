@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <section className="min-h-screen flex flex-col justify-center px-6 max-w-7xl mx-auto pt-20">
+        <section className="min-h-screen flex flex-col justify-center px-6 w-full max-w-7xl mx-auto pt-24 pb-12">
             <div className="space-y-2">
                 <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-yellow-500 mb-4">
                     UI/UX Designer & Frontend Developer
