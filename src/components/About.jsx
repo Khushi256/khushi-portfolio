@@ -12,7 +12,7 @@ function About() {
                         <br /><br />
                         As an <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>ADK-TS Hackathon Winner</span> for multi-agent collaboration, I bring strong problem-solving abilities and a keen eye for design to create solutions that balance aesthetics with functionality and deliver measurable impact.
                         <br /><br />
-                        I'm open to frontend opportunities where I can contribute to meaningful projects and drive results.
+                        I'm open to frontend opportunities where I can contribute to meaningful projects, and I enjoy contributing to open source along the way.
                     </p>
 
                     <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8 text-sm uppercase tracking-widest font-bold text-zinc-400">

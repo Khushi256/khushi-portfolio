@@ -20,7 +20,7 @@ function App() {
     }, [])
 
     return (
-        <main className="bg-background-light dark:bg-background-dark min-h-screen transition-colors duration-300">
+        <main className="bg-background-light dark:bg-background-dark min-h-screen">
             {isLoading ? (
                 <Preloader />
             ) : (

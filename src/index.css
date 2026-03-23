@@ -6,7 +6,7 @@
 
 @layer base {
     body {
-        @apply bg-background-light dark:bg-background-dark text-primary dark:text-white transition-colors duration-300 overflow-x-hidden w-full;
+        @apply bg-background-light dark:bg-background-dark text-primary dark:text-white overflow-x-hidden w-full;
         font-family: 'Inter', sans-serif;
     }
 
@@ -49,21 +49,21 @@
 
 
 
-/* Dark mode smooth transitions */
+/* Dark mode - no transitions */
 html {
     transition: none;
 }
 
 body {
-    transition: color 0.3s ease, background-color 0.3s ease;
+    transition: none;
 }
 
-/* All elements smooth color transition */
+/* All elements - no transitions */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    transition: none;
 }
 
 /* Dark mode overlay for smooth transition */
@@ -76,25 +76,28 @@ body {
     pointer-events: none;
     z-index: 10000;
     opacity: 0;
+    backdrop-filter: blur(0px);
 }
 
 .dark-mode-overlay.active {
-    animation: overlayReveal 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation: overlayReveal 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 @keyframes overlayReveal {
     0% {
         opacity: 0;
         clip-path: circle(0% at var(--x, 50%) var(--y, 50%));
+        backdrop-filter: blur(0px);
     }
 
-    50% {
-        opacity: 1;
+    30% {
+        opacity: 0.7;
     }
 
     100% {
         opacity: 0;
-        clip-path: circle(150% at var(--x, 50%) var(--y, 50%));
+        clip-path: circle(180% at var(--x, 50%) var(--y, 50%));
+        backdrop-filter: blur(10px);
     }
 }
 

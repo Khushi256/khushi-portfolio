@@ -14,25 +14,10 @@ function Navbar() {
         }
     }, [])
 
-    const toggleDarkMode = (e) => {
+    const toggleDarkMode = () => {
         const newMode = !darkMode
 
-        // Get button position for circular reveal
-        const rect = e.currentTarget.getBoundingClientRect()
-        const x = rect.left + rect.width / 2
-        const y = rect.top + rect.height / 2
-
-        // Set CSS custom properties for animation origin
-        document.documentElement.style.setProperty('--x', `${x}px`)
-        document.documentElement.style.setProperty('--y', `${y}px`)
-
-        // Create overlay for transition
-        const overlay = document.createElement('div')
-        overlay.className = 'dark-mode-overlay active'
-        overlay.style.background = newMode ? '#0a0a0a' : '#ffffff'
-        document.body.appendChild(overlay)
-
-        // Toggle theme immediately
+        // Toggle theme immediately without animation
         setDarkMode(newMode)
         if (newMode) {
             document.documentElement.classList.add('dark')
@@ -41,11 +26,6 @@ function Navbar() {
             document.documentElement.classList.remove('dark')
             localStorage.setItem('theme', 'light')
         }
-
-        // Remove overlay after animation
-        setTimeout(() => {
-            overlay.remove()
-        }, 600)
     }
 
     return (
