@@ -8,11 +8,9 @@ function About() {
 
                 <div className="lg:col-span-8">
                     <p className="text-lg md:text-xl font-display font-medium leading-relaxed text-zinc-900 dark:text-zinc-100">
-                        Hi, I'm Khushi - a <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>Frontend Developer</span> who crafts responsive web applications with exceptional <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>UI/UX</span> using <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>React</span>, TypeScript, and Tailwind CSS. I focus on building intuitive interfaces with clean, efficient code that prioritizes seamless user experiences.
+                        Hi, I’m Khushi — a <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>Frontend Developer</span> skilled in <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>React</span>, TypeScript, and Tailwind CSS, focused on building performant and user-centric web applications.
                         <br /><br />
-                        As an <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>ADK-TS Hackathon Winner</span> for multi-agent collaboration, I bring strong problem-solving abilities and a keen eye for design to create solutions that balance aesthetics with functionality and deliver measurable impact.
-                        <br /><br />
-                        I'm open to frontend opportunities where I can contribute to meaningful projects, and I enjoy contributing to open source along the way.
+                        I’ve built and deployed projects with API integrations and am currently exploring <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>AI/ML</span> to develop intelligent, data-driven applications. I’m also an <span className="text-yellow-500 font-syne font-bold" style={{ fontFamily: '"Syne", sans-serif' }}>ADK-TS Hackathon Winner</span>, recognized for building scalable multi-agent solutions.
                     </p>
 
                     <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8 text-sm uppercase tracking-widest font-bold text-zinc-400">

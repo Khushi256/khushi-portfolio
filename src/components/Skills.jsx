@@ -6,11 +6,15 @@ function Skills() {
         },
         {
             title: "Frontend",
-            skills: ['React', 'Redux', 'Framer', 'HTML5', 'CSS3', 'Tailwind', 'Shadcn UI']
+            skills: ['React', 'Redux', 'Framer', 'HTML5', 'CSS3', 'Tailwind', 'Shadcn UI', 'Radix UI', 'Zod']
         },
         {
             title: "Tools",
-            skills: ['Git', 'Figma', 'Postman', 'Vercel', 'Antigravity']
+            skills: ['Git', 'Figma', 'Postman', 'Vercel', 'Antigravity', 'Stitch', 'Web Sockets']
+        },
+        {
+            title: "Cloud & ML",
+            skills: ['Google Cloud Platform (GCP)', 'ML Fundamentals', 'scikit-learn', 'NumPy', 'Pandas', 'Matplotlib']
         }
     ]
 
@@ -21,7 +25,7 @@ function Skills() {
                     <h2 className="font-display text-4xl md:text-6xl font-extrabold tracking-tighter uppercase">Skills</h2>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
                     {skillCategories.map((category, catIndex) => (
                         <div key={catIndex}>
                             <h3 className="font-display text-lg font-bold uppercase tracking-widest mb-4 text-yellow-500">

@@ -21,12 +21,12 @@ const projects = [
     },
     {
         number: '03',
-        title: 'Craft',
-        description: 'A creative web application built with modern frontend technologies, showcasing advanced React patterns and elegant design principles.',
-        tags: ['React', 'Tailwind CSS', 'JavaScript', 'UI'],
-        image: '/images/craft.png',
-        github: 'https://github.com/Khushi256/Craft',
-        live: null
+        title: 'GitSnap',
+        description: 'GitHub Developer Analytics Dashboard featuring custom SVG heatmaps and language trend graphs. Built with React 19, TypeScript, and high-performance visualizations.',
+        tags: ['React 19', 'TypeScript', 'Tailwind CSS 4', 'Radix UI', 'Recharts'],
+        image: '/images/gitsnap.png',
+        github: 'https://github.com/Khushi256/github-visualizer',
+        live: 'https://git-snap-one.vercel.app/'
     }
 ]
 
