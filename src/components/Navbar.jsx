@@ -5,12 +5,14 @@ function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     useEffect(() => {
-        // Check system preference or localStorage
-        const isDark = localStorage.getItem('theme') === 'dark' ||
-            (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        // Only respect explicit user preference stored in localStorage
+        // Default is always light mode (no system preference fallback)
+        const isDark = localStorage.getItem('theme') === 'dark'
         setDarkMode(isDark)
         if (isDark) {
             document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
         }
     }, [])
 
