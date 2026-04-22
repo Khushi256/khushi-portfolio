@@ -1,4 +1,5 @@
 function About() {
+    
     return (
         <section className="py-20 md:py-32 px-6 max-w-7xl mx-auto border-t border-zinc-100 dark:border-zinc-900" id="about">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
