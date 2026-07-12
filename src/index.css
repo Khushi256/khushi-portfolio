@@ -48,22 +48,20 @@
 
 
 
-
-/* Dark mode - no transitions */
+/* Smooth theme transition for dark/light mode toggle */
 html {
-    transition: none;
+    color-scheme: light;
 }
 
 body {
-    transition: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* All elements - no transitions */
+/* Respect box-sizing everywhere */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-    transition: none;
 }
 
 /* Dark mode overlay for smooth transition */
