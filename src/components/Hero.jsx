@@ -20,7 +20,7 @@ function Hero() {
                     initial="hidden"
                     animate="visible"
                 >
-                    UI/UX Designer &amp; Frontend Developer
+                    Software Engineer &amp; AI/ML Developer
                 </motion.h2>
 
                 <div className="overflow-hidden">
@@ -43,7 +43,7 @@ function Hero() {
                 transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.55 }}
             >
                 <p className="max-w-sm text-lg text-zinc-500 dark:text-zinc-400 font-medium">
-                    Turning product ideas into thoughtful UI and responsive, production-ready web experiences.
+                    Building scalable web applications, real-time systems, and intelligent machine learning workflows.
                 </p>
 
                 <div className="w-full md:w-auto">

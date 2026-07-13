@@ -7,7 +7,7 @@ const skillCategories = [
     },
     {
         title: "Frontend",
-        skills: ['React', 'Redux', 'Framer', 'HTML5', 'CSS3', 'Tailwind', 'Shadcn UI', 'Radix UI', 'Zod']
+        skills: ['React.js', 'Redux', 'Framer', 'Zod', 'REST APIs', 'Tailwind', 'Shadcn UI', 'Radix UI', 'Vite']
     },
     {
         title: "Tools",
@@ -15,7 +15,7 @@ const skillCategories = [
     },
     {
         title: "Cloud & ML",
-        skills: ['Google Cloud Platform (GCP)', 'ML Fundamentals', 'scikit-learn', 'NumPy', 'Pandas', 'Matplotlib']
+        skills: ['Google Cloud Platform (GCP)', 'ML Fundamentals', 'PyTorch','Pandas', 'Deep Learning', 'scikit-learn', 'NumPy']
     }
 ]
 
