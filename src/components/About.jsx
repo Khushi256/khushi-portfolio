@@ -120,11 +120,11 @@ function About() {
                                         <p className="font-display font-bold text-lg text-zinc-900 dark:text-white leading-snug">
                                             Processing Foundation
                                         </p>
-                                        <p className="text-sm text-zinc-600 dark:text-zinc-400 font-medium">
-                                            Merged 3 contributions to <span className="font-semibold text-zinc-800 dark:text-zinc-200">p5.js-website</span> (10M+ users globally).
+                                        <p className="text-xs text-zinc-600 dark:text-zinc-400 font-medium">
+                                            Merged 3 contributions to <span className="font-semibold text-zinc-800 dark:text-zinc-200">p5.js-website</span>.
                                         </p>
-                                        <p className="text-xs text-zinc-500 dark:text-zinc-500 font-medium italic">
-                                            Refactored hero section for correct rendering across mobile/tablet breakpoints with zero desktop regression.
+                                        <p className="text-xs text-zinc-500 dark:text-zinc-500 font-medium">
+                                            Refactored hero section for correct rendering across mobile/tablet breakpoints.
                                         </p>
                                     </div>
                                 </div>
@@ -181,11 +181,10 @@ function About() {
                                         </li>
                                         <li className="flex items-start gap-1.5">
                                             <span className="text-yellow-500">•</span>
-                                            <span>AWS Academy Graduate — Machine Learning Foundations</span>
-                                        </li>
-                                        <li className="flex items-start gap-1.5">
-                                            <span className="text-yellow-500">•</span>
-                                            <span>Prompt Design in Vertex AI — Google Cloud Certified</span>
+                                            <span>
+                                                Contributor — <span className="text-zinc-900 dark:text-white font-bold">GSSoC '26, AI Agents Track</span>
+                                                <span className="block text-zinc-500 font-medium">GirlScript Foundation × Smartly Labs &nbsp;·&nbsp; 2026</span>
+                                            </span>
                                         </li>
                                     </ul>
                                 </div>

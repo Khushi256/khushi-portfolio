@@ -3,19 +3,19 @@ import { motion } from 'framer-motion'
 const skillCategories = [
     {
         title: "Languages",
-        skills: ['C++', 'Java', 'JavaScript', 'TypeScript', 'Python', 'C']
+        skills: ['Python', 'JavaScript', 'TypeScript', 'C++', 'Java']
+    },
+    {
+        title: "AI & ML",
+        skills: ['LangChain', 'LangGraph', 'RAG', 'Vector DB', 'PyTorch', 'scikit-learn', 'FastAPI']
     },
     {
         title: "Frontend",
-        skills: ['React.js', 'Redux', 'Framer', 'Zod', 'REST APIs', 'Tailwind', 'Shadcn UI', 'Radix UI', 'Vite']
+        skills: ['React.js', 'Redux', 'Tailwind', 'Shadcn UI', 'Framer Motion', 'REST APIs', 'Vite']
     },
     {
-        title: "Tools",
-        skills: ['Git', 'Figma', 'Postman', 'Vercel', 'Antigravity', 'Stitch', 'Web Sockets']
-    },
-    {
-        title: "Cloud & ML",
-        skills: ['Google Cloud Platform (GCP)', 'ML Fundamentals', 'PyTorch','Pandas', 'Deep Learning', 'scikit-learn', 'NumPy']
+        title: "Tools & Cloud",
+        skills: ['Git', 'Figma', 'Postman', 'Vercel', 'GCP']
     }
 ]
 

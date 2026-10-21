@@ -12,12 +12,12 @@ const projects = [
     },
     {
         number: '02',
-        title: 'Plant Disease Detector',
-        description: 'Deep learning crop diagnostics app built with PyTorch and Streamlit. Employs a custom CNN and ResNet18 transfer learning on 87,000+ leaf images across 38 classes, achieving up to 100% accuracy.',
-        tags: ['PyTorch', 'Streamlit', 'Python', 'CNN', 'ResNet18'],
-        image: '/images/plant-disease-detector.png',
-        github: 'https://github.com/Khushi256/plant-disease-detector',
-        live: 'https://plant-disease-detector-ml.streamlit.app/'
+        title: 'SHIFT-TS',
+        description: 'GRU-based Remaining Useful Life prediction on NASA C-MAPSS, evaluated across 7 distribution shift scenarios. Features self-supervised learning, few-shot adaptation, and MC Dropout uncertainty signals with a React research dashboard.',
+        tags: ['PyTorch', 'GRU', 'Self-Supervised Learning', 'MC Dropout', 'NASA C-MAPSS', 'React'],
+        image: '/images/SHIFT-TS _ Engine RUL Prediction.png',
+        github: 'https://github.com/Khushi256/Shift-TS',
+        live: 'https://shift-ts.vercel.app/'
     },
     {
         number: '03',
